@@ -1,0 +1,190 @@
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(25,25,25, .5);
+    border-bottom: 1px solid #FD6E8A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: lightgreen;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.2rem;
+}
+
+a:hover:not(.active) {
+    background-color: lightslategray;
+}
+
+.mouseover:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+a:active {
+    background-color: #4CAF50;
+}
+
+form {
+    margin-top: 75px;
+}
+
+.heading {
+    text-align: center;
+    color: salmon;
+    font-size: 1.1em;
+}
+
+fieldset {
+    border: 1px solid;
+    width: 75%;
+    margin: auto;
+}
+
+#displayBills {
+    width: auto;
+    margin: 12.5% auto;
+    border: none;
+    box-shadow: 1px 1px 5px grey;
+    border-collapse: collapse;
+    background-color: #edeff0; 
+}
+
+th {
+    background-color: white;
+    margin: auto;
+    padding: 2%;
+}
+
+td {
+    border: 1px solid lightgray;
+    margin: auto;
+    padding: 2%;
+    
+}
+
+.displayItem {
+    margin: 5px;
+    padding: 7px;
+    min-height: 20px;
+    text-align: center;
+    border: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.displayItem:hover {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#addBillField, #viewBillField {
+    margin: auto;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.inputbox {
+    text-align: center;
+    background-color: rgba(256,256,256, .1);
+    border: none;
+    font-size: .9em;
+    margin: auto;
+}
+/*
+.inputbox {
+    margin: 2% 4%;
+    padding: 5% 0%;
+    border-radius: 5px;
+    font-size: .9em;
+    border: 2px;
+     box-shadow: 1px 1px 1px lightgrey; 
+    text-align: center;
+    background-color: rgba(256,256,256, .6);
+}*/
+.bill_display {
+  border: 1px solid lightgray;
+  background-color: #efefef;
+  display: block;
+  width: 70%;
+  padding: 2%;
+  margin: auto;
+  box-shadow: .5px .5px 5px lightgray;
+}
+
+#container {
+  margin-top: 100px;
+  
+}
+.heading{
+    padding: 0;
+    margin: 0;
+}
+.bill_name {
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.due_date {
+    width: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.description {
+  width: 60%;
+  display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.details {
+    
+    width: 39%;
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    display: inline;
+    padding: 1%;
+    text-align: right;
+}
